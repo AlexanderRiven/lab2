@@ -12,6 +12,7 @@ import (
 	"unsafe"
 )
 
+// dawadwadadw
 func convertAvg(data [4]byte) float32 {
 	var tempConv []byte = data[:]
 	strTempConv := hex.EncodeToString(tempConv)
